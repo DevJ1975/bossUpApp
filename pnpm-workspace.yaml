@@ -1,0 +1,9 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+# Carried over from create-next-app: these ship prebuilt binaries, so their
+# install/build scripts are intentionally skipped.
+ignoredBuiltDependencies:
+  - sharp
+  - unrs-resolver
