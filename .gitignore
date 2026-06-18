@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# builds
+.next/
+out/
+dist/
+build/
+.turbo/
+
+# vercel
+.vercel/
+
+# env files
+.env
+.env*.local
+
+# logs & misc
+*.log
+.DS_Store
+coverage/
+*.tsbuildinfo
